@@ -1,17 +1,6 @@
-| :warning: This repository was forked from @ErikvdVen's [php-gif](https://github.com/ErikvdVen/php-gif). It is minorly updated to work with PHP 8.
-| ---
 # PHP GIF Reborn
-[![Latest Stable Version](https://poser.pugx.org/erikvdven/php-gif/v/stable)](https://packagist.org/packages/erikvdven/php-gif)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erikvandeven100%40hotmail%2ecom&lc=NL&item_name=Erik%20van%20de%20Ven%20Github)
 
 Below GIF image is an example image which can contain real-time data. A PHP script calculates the pending time till new year and generates the GIF image. An ideal solution for sending e-mails with real-time data to customers. E-mail clients give you the opportunity to load images by URL and so everytime the client re-opens the e-mail message, the GIF will be re-generated with real-time data.
-
-For below image this doesn't work, unfortunately, because GitHub downloads the image once and stores it locally. Most e-mail clients, however, do load the images directly from source. Successfully tested with Gmail and Outlook 2011 (Mac OSX). 
-
-*Important note: Outlook 2007, 2010 and 2013 for Windows will only show the first frame. TIP!: Keep the first frame universal, so it doesn't matter the GIF image animates or not.*
-
-_There used to be a demo of the countdown below, but it is currently not working as of March 2022._
-![Live countdown to new year](http://only-media.nl/gif/gif.php)
 
 ## Important Information
 This package relies on the Lato font. You can download it from Google Fonts [here](https://fonts.google.com/specimen/Lato). Copy the TTF files into the fonts folder. Otherwise, the GIF will be blank.
@@ -146,13 +135,12 @@ $imageFrames = array(
 );
 
 echo $gif->generate($imageFrames);
-?>
 ```
 
 ## License & Credits
 
-This software is published under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
-
+This software is published under the MIT License.
+###### Original Code
+PHP-GIF-Reborn is based off of (PHP-GIF)[https://github.com/ErikvdVen/php-gif]
 ###### GIFEncoder
-
 GIFEncoder.class.php contains minor adaptations from the GIFEncoder PHP class by [László Zsidi](http://gifs.hu).
