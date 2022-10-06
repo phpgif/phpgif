@@ -23,7 +23,7 @@ class GIFGenerator {
             "y-position" => 100,
             "x-position" => 100,
             "angle" => 0,
-            "fonts" => __DIR__.'/fonts/RobotoMono-Bold.ttf',
+            "fonts" => 'fonts/Lato-Light.ttf',
             "fonts-color" => [255,255,255],
             "fonts-size" => 12,
             "delay" => 100,
