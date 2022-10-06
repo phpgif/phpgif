@@ -6,6 +6,19 @@ Below GIF image is an example image which can contain real-time data. A PHP scri
 This package relies on the Lato font. You can download it from Google Fonts [here](https://fonts.google.com/specimen/Lato). Copy the TTF files into the fonts folder. Otherwise, the GIF will be blank.
 
 ## Installing PHP GIF Reborn
+
+### Using Composer
+
+Run the following command in Terminal or Command Prompt:
+
+```
+composer require mrfakename/php-gif-reborn
+```
+
+### Without Composer
+
+When using shared hosting, many hosting providers don't allow Composer. Use the following system to install PHP-GIF-Reborn.
+
 1. Download the repo
 2. Open the src/Gif folder
 3. Copy GIFEncoder.php and GIFGenerator.php into your file
