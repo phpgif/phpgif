@@ -1,0 +1,21 @@
+{
+    "name": "mrfakename/php-gif-reborn",
+    "type": "library",
+    "homepage": "https://github.com/fakerybakery/PHP-GIF-Reborn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mrfakename",
+            "email": "me@mrfake.name",
+            "homepage": "https://mrfake.name/"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrfakename\\":"src/"
+        }
+    }
+}
