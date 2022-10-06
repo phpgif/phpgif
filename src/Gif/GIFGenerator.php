@@ -1,4 +1,5 @@
 <?php
+namespace mrfakename\GIF;
 Class GIFGenerator {
 
     private $_defaultYPosition;
