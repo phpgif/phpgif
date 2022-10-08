@@ -154,6 +154,6 @@ echo $gif->generate($imageFrames);
 
 This software is published under the MIT License.
 ###### Original Code
-PHP-GIF-Reborn is based off of (PHP-GIF)[https://github.com/ErikvdVen/php-gif]
+PHP-GIF-Reborn is based off of [PHP-GIF](https://github.com/ErikvdVen/php-gif)
 ###### GIFEncoder
 GIFEncoder.class.php contains minor adaptations from the GIFEncoder PHP class by [László Zsidi](http://gifs.hu).
