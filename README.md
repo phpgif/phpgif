@@ -12,7 +12,7 @@ This package relies on the Lato font. You can download it from Google Fonts [her
 Run the following command in Terminal or Command Prompt:
 
 ```
-composer require mrfakename/php-gif-reborn
+composer require phpgif/phpgif
 ```
 
 ### Without Composer
