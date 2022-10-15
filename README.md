@@ -12,25 +12,45 @@ phpgif is a PHP library to generate GIFs - easily!
 
 Run the following command in Terminal or Command Prompt:
 
+<div align="left">
+
 ```
 composer require phpgif/phpgif
 ```
+	
+</div>
+
+	
 
 ### Without Composer
 
 When using shared hosting, many hosting providers don't allow Composer. Use the following system to install PHP-GIF-Reborn.
 
+
+<div align="left">
+
+
 1. Download the repo
 2. Open the src/Gif folder
 3. Copy GIFEncoder.php and GIFGenerator.php into your file
 4. Paste the following code at the top of your file:
+
+	
+
 ```php
 include 'GIFEncoder.php';
 include 'GIFGenerator.php';
 ```
+
+	
+</div>
+	
+	
 ## Getting Started
 
 Create a PHP file and add these headers at the beginning of the file:
+
+<div align="left">
 
 ```php
 // Caching disable headers
@@ -45,8 +65,14 @@ header ('Content-type:image/gif');
 include 'GIFEncoder.php';
 include 'GIFGenerator.php';
 ```
-
+	
+	
+</div>
+	
+	
 On the next lines you can create a GIF image by first initializing the GIFGenerator object and creating an array with all the image frames:
+
+<div align="left">
 
 ```php
 // Initialize a new GIFGenerator object
@@ -71,15 +97,28 @@ $imageFrames = array(
 	)
 );
 ```
+
+	
+</div>
+
+	
+	
 Finally you generate the image and `echo` the results on the screen: 
+
+<div align="left">
 
 ```php
 echo $gif->generate($imageFrames);
 ```
 
+</div>
+	
+	
 ## Example
 
 A more complete example. You could copy/paste below code to a file and execute it in the browser to view a more complete result. As you can see it's not required to use text in your GIF image and you can add as much text per frame, and as much frames per GIF image as you like.
+
+<div align="left">
 
 ```php
 <?php
@@ -150,6 +189,10 @@ $imageFrames = array(
 
 echo $gif->generate($imageFrames);
 ```
+
+
+</div>
+
 
 ## License & Credits
 
