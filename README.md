@@ -1,11 +1,10 @@
 # phpgif
 
-Below GIF image is an example image which can contain real-time data. A PHP script calculates the pending time till new year and generates the GIF image. An ideal solution for sending e-mails with real-time data to customers. E-mail clients give you the opportunity to load images by URL and so everytime the client re-opens the e-mail message, the GIF will be re-generated with real-time data.
+## What is phpgif?
 
-## Important Information
-This package relies on the Lato font. You can download it from Google Fonts [here](https://fonts.google.com/specimen/Lato). Copy the TTF files into the fonts folder. Otherwise, the GIF will be blank.
+phpgif is a PHP library to generate GIFs - easily!
 
-## Installing PHP GIF Reborn
+## Installing phpgif
 
 ### Using Composer
 
@@ -156,4 +155,4 @@ This software is published under the MIT License.
 ###### Original Code
 PHP-GIF-Reborn is based off of [PHP-GIF](https://github.com/ErikvdVen/php-gif)
 ###### GIFEncoder
-GIFEncoder.class.php contains minor adaptations from the GIFEncoder PHP class by [László Zsidi](http://gifs.hu).
+GIFEncoder.class.php contains minor adaptations from the GIFEncoder PHP class by László Zsidi.
