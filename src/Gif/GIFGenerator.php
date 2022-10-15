@@ -27,6 +27,7 @@ class GIFGenerator {
             "fonts-color" => [255,255,255],
             "fonts-size" => 12,
             "delay" => 100,
+            "transparent" => false,
             "repeat" => 0
         ];
 
@@ -41,6 +42,7 @@ class GIFGenerator {
         $this->_defaultFontSize = $args['fonts-size'];
         $this->_defaultDelay = $args['delay'];
         $this->_defaultRepeat = $args['repeat'];
+        $this->_transparent = $args['transparent'];
     }
 
     /**
@@ -126,7 +128,7 @@ class GIFGenerator {
 
 
         $repeat = (array_key_exists('repeat', $array)) ? $array['repeat'] : $this->_defaultRepeat;
-        $gif = new GIFEncoder($frames,$frame_delay,$repeat,2,0,0,0,0,'bin');
+        $gif = new GIFEncoder($frames,$frame_delay,$repeat,2,0,0,0,0,'bin', $this->_transparent);
         return $gif->GetAnimation();
     }
 
