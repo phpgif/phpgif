@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/76186054/196006381-dd8a95b5-4826-432b-9ed3-ec71bf1f544f.png" width="150px">
+
+
 # phpgif
 
 ## What is phpgif?
@@ -200,9 +203,9 @@ echo $gif->generate($imageFrames);
 
 This software is published under the MIT License.
 ###### Original Code
-PHP-GIF-Reborn is based off of [PHP-GIF](https://github.com/ErikvdVen/php-gif)
+phpgif is based off of [PHP-GIF](https://github.com/ErikvdVen/php-gif)
 ###### GIFEncoder
-GIFEncoder.class.php contains minor adaptations from the GIFEncoder PHP class by László Zsidi.
+GIFEncoder.class.php is adapted from the GIFEncoder PHP class by László Zsidi.
 
 
 </div>
