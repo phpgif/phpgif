@@ -1,13 +1,13 @@
 {
-    "name": "mrfakename/php-gif-reborn",
+    "name": "phpgif/phpgif",
     "type": "library",
-    "homepage": "https://github.com/fakerybakery/PHP-GIF-Reborn",
+    "homepage": "https://github.com/phpgif/phpgif",
     "license": "MIT",
     "authors": [
         {
-            "name": "mrfakename",
-            "email": "me@mrfake.name",
-            "homepage": "https://mrfake.name/"
+            "name": "phpgif",
+            "email": "phpgif@pm.me",
+            "homepage": "https://github.com/phpgif/phpgif"
         }
     ],
     "require": {
