@@ -53,7 +53,7 @@ Class GIFEncoder {
     ::	GIFEncoder (Encode the GIF)...
     ::
     */
-    function __construct($GIF_src, $GIF_dly, $GIF_lop, $GIF_dis,$GIF_red, $GIF_grn, $GIF_blu, $GIF_ofs,$GIF_mod)
+    function __construct($GIF_src, $GIF_dly, $GIF_lop, $GIF_dis,$GIF_red, $GIF_grn, $GIF_blu, $GIF_ofs,$GIF_mod,$GIF_transparent=false)
     {
         if ( ! is_array ( $GIF_src ) && ! is_array ( $GIF_dly ) ) {
             printf	( "%s: %s", $this->VER, $this->ERR [ 'ERR00' ] );
@@ -65,8 +65,10 @@ Class GIFEncoder {
         }
         $this->LOP = $GIF_lop === false ? false : (( $GIF_lop > -1 ) ? $GIF_lop : 0);
         $this->DIS = ( $GIF_dis > -1 ) ? ( ( $GIF_dis < 3 ) ? $GIF_dis : 3 ) : 2;
-        $this->COL = ( $GIF_red > -1 && $GIF_grn > -1 && $GIF_blu > -1 ) ?
+        if(!$GIF_transparent){
+         $this->COL = ( $GIF_red > -1 && $GIF_grn > -1 && $GIF_blu > -1 ) ?
             ( $GIF_red | ( $GIF_grn << 8 ) | ( $GIF_blu << 16 ) ) : -1;
+        }
         for ( $i = 0; $i < count ( $GIF_src ); $i++ ) {
             if ( strToLower ( $GIF_mod ) == "url" ) {
                 $this->BUF [ ] = fread ( fopen ( $GIF_src [ $i ], "rb" ), filesize ( $GIF_src [ $i ] ) );
