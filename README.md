@@ -81,6 +81,7 @@ $gif = new GIFGenerator();
 // Create a multidimensional array with all the image frames
 $imageFrames = array(
 	'repeat' => false,
+	'transparent' => false,
 	'frames' => array(
 		array(
 			'image' => './images/newyear.jpg',
@@ -128,7 +129,7 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
 // Output as a GIF image
-header ('Content-type:image/gif');
+header ('Content-type: image/gif');
 
 // Include the GIFEncoder and GIFGenerator PHP files
 include 'GIFEncoder.php';
@@ -140,6 +141,7 @@ $gif = new GIFGenerator();
 // Create a multidimensional array with all the image frames
 $imageFrames = array(
 	'repeat' => 5,
+	'transparent' => true,
 	'frames' => array(
 		array(
 			'image' => './images/newyear.jpg',
