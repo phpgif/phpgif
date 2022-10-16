@@ -21,7 +21,7 @@ Run the following command in Terminal or Command Prompt:
 composer require phpgif/phpgif
 ```
 
-```
+```php
 use phpgif\GIF\GifGenerator
 ```
 	
