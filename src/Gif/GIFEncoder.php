@@ -5,7 +5,7 @@
 # (https://github.com/ErikvdVen) for ErikvdVen's project,     #
 # php-gif (https://github.com/ErikvdVen/php-gif).             #
 ###############################################################
-namespace mrfakename\GIF;
+namespace phpgif\GIF;
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::
