@@ -20,6 +20,10 @@ Run the following command in Terminal or Command Prompt:
 ```
 composer require phpgif/phpgif
 ```
+
+```
+use phpgif\GIF\GifGenerator
+```
 	
 </div>
 
