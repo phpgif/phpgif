@@ -5,6 +5,8 @@
 
 # phpgif
 
+## Want an easier way to create GIFs? Try [phpgif/ezgif](https://github.com/phpgif/ezgif)!
+
 ## What is phpgif?
 
 phpgif is a PHP library to generate GIFs - easily!
