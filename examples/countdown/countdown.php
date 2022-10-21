@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header ('Content-type:image/gif');
 
 // Include the GIFGenerator class
-use ErikvdVen\Gif\GIFGenerator;
+use phpgif\GIF\GIFGenerator;
 
 // Initialize a new GIFGenerator object
 $gif = new GIFGenerator();
