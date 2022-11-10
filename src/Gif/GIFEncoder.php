@@ -32,7 +32,7 @@ namespace phpgif\GIF;
 */
 Class GIFEncoder {
     var $GIF = "GIF89a";		/* GIF header 6 bytes	*/
-    var $VER = "GIFEncoder V3.00";	/* Encoder version		*/
+    var $VER = "GIFEncoder V4.00";	/* Encoder version		*/
     var $BUF = [];
     var $OFS = [];
     var $SIG =  0;
