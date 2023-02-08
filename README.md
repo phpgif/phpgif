@@ -213,5 +213,5 @@ phpgif is based off of [PHP-GIF](https://github.com/ErikvdVen/php-gif)
 ###### GIFEncoder
 GIFEncoder.class.php is adapted from the GIFEncoder PHP class by László Zsidi.
 
-
+&copy; 2023 mrfakename. All rights reserved.
 </div>
