@@ -40,7 +40,7 @@ When using shared hosting, many hosting providers don't allow Composer. Use the 
 
 
 1. Download the repo
-2. Open the src/Gif folder
+2. Open the src/GIF folder
 3. Copy GIFEncoder.php and GIFGenerator.php into your file
 4. Paste the following code at the top of your file:
 
